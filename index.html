@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Silent Reading Party Questions</title>
   <style>
      body {
@@ -13,6 +13,7 @@
       p {
         display:flex;
         justify-content: space-between;
+        align-content: center;
         width:250px;
         height:100px;
         font-size: 20px;
@@ -22,7 +23,17 @@
         padding:10px;
         margin:10px auto;
         border-radius:25px;
-       
+        font-weight: bold;
+        font-family:'Courier New', Courier, monospace;
+      }
+
+      h1 
+      {
+        border-width: 100px;
+        border-color: azure;
+        padding:10px;
+        margin:10px auto;
+        border-radius:25px;
       }
 
   </style>
@@ -30,7 +41,7 @@
 <body>
   <header>
     <main> 
-      <h1 style="text-align:center;">Silent Reading Party Questions</h1>
+      <h1 style="text-align:center; background-color: rgb(75, 75, 168); color:azure;">Silent Reading Party Questions</h1>
       <h1 style="background-color: grey; text-align:center;">Class 1 Lab</h1>
 
       <div>
@@ -51,7 +62,7 @@
         let snack = prompt ("What is your favorite snack?");
         let season = prompt ("What is your favorite season?");
         alert ("Nice to meet you " + name + "! Meet me " +arena+ " with " +snack+ " and your favorite book in the " +season+ " time, because I am reading Les Miserables and I would love to share a snack.")
-        console.log (alert)
+        console.log (name + arena + snack + season)
      </script>
     </main>
   </header>

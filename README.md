@@ -1,6 +1,6 @@
 ## lab20101b Practice
 
--Practicing prompt and html to increase familarity with boilerplate html and naming and concating variables.
+-A project practicing prompt and html to increase familiarity with boilerplate html and naming and concatenating variables.
 
 
 -Stretch goals: apply styling, use HTML validator, and audit for accessibility 
